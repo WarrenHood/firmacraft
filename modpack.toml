@@ -1,0 +1,7 @@
+pack_name = "firmacraft"
+mc_version = "1.20.1"
+modloader = "Fabric"
+default_providers = ["Modrinth"]
+forbidden_mods = []
+
+[mods]
