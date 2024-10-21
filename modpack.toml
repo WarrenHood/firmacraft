@@ -223,6 +223,10 @@ version = "*"
 name = "iris-flw-compat"
 version = "*"
 
+[mods.itemphysic]
+name = "itemphysic"
+version = "*"
+
 [mods.jade]
 name = "jade"
 version = "*"

@@ -574,6 +574,19 @@ name = "create"
 version = "1.20.1-0.5.1.i"
 providers = ["Modrinth"]
 
+[mods.creativecore]
+version = "2.12.17"
+server_side = true
+client_side = true
+
+[[mods.creativecore.source]]
+
+[mods.creativecore.source.Download]
+url = "https://cdn.modrinth.com/data/OsZiaDHq/versions/Sxi0GJEU/CreativeCore_FORGE_v2.12.17_mc1.20.1.jar"
+sha1 = "afefe28ad21ac46a161267cc713aba080b590d89"
+sha512 = "86cfc62d29a2f512c1a589ca28fa67eb05c520ee77bae7c102b3fc3c6ea6e76b277bbb344d06b34118c2c36caefe1abbf2853f757e68172fcb98196e5e41062d"
+filename = "CreativeCore_FORGE_v2.12.17_mc1.20.1.jar"
+
 [mods.cristel-lib]
 version = "Unknown"
 server_side = true
@@ -940,6 +953,24 @@ filename = "oculus-flywheel-compat-forge1.20.1+1.1.3b.jar"
 [[mods.iris-flw-compat.deps]]
 name = "oculus"
 version = "1.20.1-1.7.0"
+providers = ["Modrinth"]
+
+[mods.itemphysic]
+version = "1.8.2"
+server_side = true
+client_side = true
+
+[[mods.itemphysic.source]]
+
+[mods.itemphysic.source.Download]
+url = "https://cdn.modrinth.com/data/aT8BzaOj/versions/bYC50zaV/ItemPhysic_FORGE_v1.8.2_mc1.20.1.jar"
+sha1 = "4805708b0c3afa7b4a3df9e8d25f793752dd004e"
+sha512 = "d123ba1a8ee2e65c5302e80f1928a17631bb9a7bf047b5e548431671f795076fc1588f61d1df2c4288de906bc78eb23efb58e164e7068b43f4368dc5909ee86b"
+filename = "ItemPhysic_FORGE_v1.8.2_mc1.20.1.jar"
+
+[[mods.itemphysic.deps]]
+name = "creativecore"
+version = "2.12.17"
 providers = ["Modrinth"]
 
 [mods.jade]
