@@ -1617,6 +1617,20 @@ sha1 = "ff733a817e7c1b1d3af0ccdfc2342846f2a5d485"
 sha512 = "edc8987ea78ba15eb229d5e565d66f0767b554f9fdf05ba188849b549b81ea7ae6940c8afffa049dbb1962c5ef4dd93e37a60289564bcdd09f09ae17d68004ab"
 filename = "trade-cycling-forge-1.20.1-1.0.15.jar"
 
+[mods.true-darkness-forge-updated-fork]
+version = "2.0.103"
+deps = []
+server_side = false
+client_side = true
+
+[[mods.true-darkness-forge-updated-fork.source]]
+
+[mods.true-darkness-forge-updated-fork.source.Download]
+url = "https://cdn.modrinth.com/data/mI4xkilT/versions/SvvdOi5A/darkness-forge-1.20.1-2.0.103-fork.jar"
+sha1 = "56be989675f110d74c04567c4ccc3c1941f7472c"
+sha512 = "4f4bcb8c9c9ec9b39485ca321bfaf39abf39d66c7abfa19b40ca800c4f9c5d878b3bfdf57ac781ef048ac311609b06f26568cf9dda28a21a9331854fd8d992ba"
+filename = "darkness-forge-1.20.1-2.0.103-fork.jar"
+
 [mods.water-flasks]
 version = "3.0.2"
 server_side = true

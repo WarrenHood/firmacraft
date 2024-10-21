@@ -365,6 +365,12 @@ client_side = true
 name = "trade-cycling"
 version = "*"
 
+[mods.true-darkness-forge-updated-fork]
+name = "true-darkness-forge-updated-fork"
+version = "*"
+server_side = false
+client_side = true
+
 [mods.water-flasks]
 name = "water-flasks"
 version = "*"
