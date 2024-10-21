@@ -24,29 +24,6 @@ sha1 = "ac7f5996dc32f3ac5f3544048e023e4a1501cba6"
 sha512 = "2c221940514b3758641e4e792eab0bb8bd19eaf4a05a2343c41de3b62a4292aa26352a50a70fd2b377d2bb22299bf23109082d110e74fe11c28ffb8069a3f777"
 filename = "alekiNiftyShips-FORGE-1.20.1-1.0.13.jar"
 
-[mods.alekishipsbop]
-version = "1.0.4"
-server_side = true
-client_side = true
-
-[[mods.alekishipsbop.source]]
-
-[mods.alekishipsbop.source.Download]
-url = "https://cdn.modrinth.com/data/5rDQT07E/versions/EI64BVLv/niftyShipsBiomesOPlenty-FORGE-1.20.1-1.0.4.jar"
-sha1 = "cd2c662b1676ff19246e9a03396538a497f23665"
-sha512 = "b83eb25b3e2907452f5d39215fecdc95224783ce8d7637c9db1f5f7b881bb4de7540090e871bfbda904350041a1e9217a5f6df4883f13a760f42077f40192c4e"
-filename = "niftyShipsBiomesOPlenty-FORGE-1.20.1-1.0.4.jar"
-
-[[mods.alekishipsbop.deps]]
-name = "alekiships"
-version = "1.0.13"
-providers = ["Modrinth"]
-
-[[mods.alekishipsbop.deps]]
-name = "biomes-o-plenty"
-version = "19.0.0.91"
-providers = ["Modrinth"]
-
 [mods.alternate-current]
 version = "forge-mc1.20-1.7.0"
 server_side = true
@@ -259,29 +236,6 @@ filename = "BetterF3-7.0.2-Forge-1.20.1.jar"
 [[mods.betterf3.deps]]
 name = "cloth-config"
 version = "11.1.136+forge"
-providers = ["Modrinth"]
-
-[mods.biomes-o-plenty]
-version = "19.0.0.91"
-server_side = true
-client_side = true
-
-[[mods.biomes-o-plenty.source]]
-
-[mods.biomes-o-plenty.source.Download]
-url = "https://cdn.modrinth.com/data/HXF82T3G/versions/qlLkvQuH/BiomesOPlenty-forge-1.20.1-19.0.0.91.jar"
-sha1 = "487c9c633e7c8fa5dca9f399ea24969ba3e2476b"
-sha512 = "3e15ae99776987a22e4f670a21b557fbdcd9ac202fb3129e2cd516a5ac0abd1db4fbfae01129c7f7098a6359eb7cfdb1f85abd54ab446d54567f73524b111d1b"
-filename = "BiomesOPlenty-forge-1.20.1-19.0.0.91.jar"
-
-[[mods.biomes-o-plenty.deps]]
-name = "glitchcore"
-version = "0.0.1.1"
-providers = ["Modrinth"]
-
-[[mods.biomes-o-plenty.deps]]
-name = "terrablender"
-version = "3.0.1.7"
 providers = ["Modrinth"]
 
 [mods.block-runner]

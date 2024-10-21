@@ -14,10 +14,6 @@ client_side = true
 name = "alekiships"
 version = "*"
 
-[mods.alekishipsbop]
-name = "alekishipsbop"
-version = "*"
-
 [mods.alternate-current]
 name = "alternate-current"
 version = "*"
