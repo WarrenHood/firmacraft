@@ -865,19 +865,6 @@ sha1 = "3de6257b1bac0cb2f4d19baee7234ec497876fec"
 sha512 = "ed8bb3dde8adab443ff61a23f27d37da80d67a44c6ebcf1f4170a865d4e26b3b9baa6bd7720a16bfefbd25d75a41b88237b278b6e586923406526b34cc8d7cce"
 filename = "gamemenumodoption-mc1.20.1-2.2.1.jar"
 
-[mods.glitchcore]
-version = "0.0.1.1"
-server_side = true
-client_side = true
-
-[[mods.glitchcore.source]]
-
-[mods.glitchcore.source.Download]
-url = "https://cdn.modrinth.com/data/s3dmwKy5/versions/pYPZ5MNI/GlitchCore-forge-1.20.1-0.0.1.1.jar"
-sha1 = "bba0b08fe76b28b35243fee53f99d54a18153b53"
-sha512 = "f4d9ec11b9604f59552cbecf4099600e7adef993cff37af0badac29505bd47aa9615acd140ee808b51754b048c2d61e2f942f656ff391df1e080cbffdfec5112"
-filename = "GlitchCore-forge-1.20.1-0.0.1.1.jar"
-
 [mods.hardcore-revival]
 version = "12.0.6+forge-1.20.1"
 server_side = true
@@ -1446,19 +1433,6 @@ sha1 = "f80f9eed728966adcfbcc848633e789645057281"
 sha512 = "476595aacc7c66a0cf7bcd56143975122ea54ae4c5b61a232d3b0b9b1e3c013575efcc05de31a5d2c4e129542bfd8ae255a25d1486a4e08961cc4a303940fd19"
 filename = "supermartijn642configlib-1.1.8-forge-mc1.20.jar"
 
-[mods.terrablender]
-version = "3.0.1.7"
-server_side = true
-client_side = true
-
-[[mods.terrablender.source]]
-
-[mods.terrablender.source.Download]
-url = "https://cdn.modrinth.com/data/kkmrDlKT/versions/HI0iCUpi/TerraBlender-forge-1.20.1-3.0.1.7.jar"
-sha1 = "18bb3f31d3188f8d5d96e80061615e260be2d44d"
-sha512 = "6fe8b495c37bb3da158d461d5613f3a5414b77693c98ade3b5930a28d4b0f26c654ca9fd9eca96d98b7bce27f0e5c6a1a908bec74b58c03d30cb92503f22f446"
-filename = "TerraBlender-forge-1.20.1-3.0.1.7.jar"
-
 [mods.terrafirmacraft]
 version = "3.2.7"
 server_side = true
@@ -1617,19 +1591,19 @@ name = "terrafirmacraft"
 version = "3.2.7"
 providers = ["Modrinth"]
 
-[mods.xaeros-minimap]
-version = "24.5.0_Forge_1.20"
+[mods.xaeros-minimap-fair]
+version = "FP24.2.0_Forge_1.20"
 deps = []
 server_side = false
 client_side = true
 
-[[mods.xaeros-minimap.source]]
+[[mods.xaeros-minimap-fair.source]]
 
-[mods.xaeros-minimap.source.Download]
-url = "https://cdn.modrinth.com/data/1bokaNcj/versions/R5ch4BWG/Xaeros_Minimap_24.5.0_Forge_1.20.jar"
-sha1 = "ec641304297077d8f6eaf86f2669c538bbdb19b6"
-sha512 = "49af78dcede325e085ace8e660da2aeec3e6d0695f370e0e23c3ff8c860b5b9b1c041323cd1ab0697f5bce451296d27db84bcc58bce2eb92e77a15b49180470c"
-filename = "Xaeros_Minimap_24.5.0_Forge_1.20.jar"
+[mods.xaeros-minimap-fair.source.Download]
+url = "https://cdn.modrinth.com/data/JkSi2Fzx/versions/kN9k0jQJ/Xaeros_Minimap_FP24.2.0_Forge_1.20.jar"
+sha1 = "f1ff67cf781da9769a1e0260f8925e6889b751b7"
+sha512 = "a95a1c7575568cad6381d58bfc1bec01fde31dfd50d2112c02520d07b0c98526e1e58f7dc53b5a6cd9eb023bf6a275453196e45aae5fe35fca1d4b9d7fe2a0dc"
+filename = "Xaeros_Minimap_FP24.2.0_Forge_1.20.jar"
 
 [mods.xaeros-world-map]
 version = "1.39.0_Forge_1.20"

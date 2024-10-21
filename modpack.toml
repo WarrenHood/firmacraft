@@ -375,8 +375,8 @@ client_side = true
 name = "water-flasks"
 version = "*"
 
-[mods.xaeros-minimap]
-name = "xaeros-minimap"
+[mods.xaeros-minimap-fair]
+name = "xaeros-minimap-fair"
 version = "*"
 
 [mods.xaeros-world-map]
