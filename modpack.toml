@@ -289,6 +289,10 @@ version = "*"
 name = "polymorph"
 version = "*"
 
+[mods.precision-prospecting]
+name = "precision-prospecting"
+version = "*"
+
 [mods.radiant-gear]
 name = "radiant-gear"
 version = "*"

@@ -1224,6 +1224,24 @@ sha1 = "94592f3ffba15b991118e7dbea99b7f10aa6c0cc"
 sha512 = "324cea6e6f0656cda51ab38bc1d4e97fd92f55c10ce7f2fd1ac19a118acfe07a943b057e26f64308fe9c54263ca58caf348b67dabec9c26e31e8e04bd945f9e1"
 filename = "polymorph-forge-0.49.5+1.20.1.jar"
 
+[mods.precision-prospecting]
+version = "1.20.1-1.0.0"
+server_side = true
+client_side = true
+
+[[mods.precision-prospecting.source]]
+
+[mods.precision-prospecting.source.Download]
+url = "https://cdn.modrinth.com/data/QV5ehY9M/versions/AIQoA8gj/precisionprospecting-1.20.1-1.0.0.jar"
+sha1 = "97adef34ab919b6f4a7e85f85798e085520862ba"
+sha512 = "9bbeae58d752fcf728515088a47b473fff1570b1010ba26a09dd36da45befe028f82872242a364595b9410f8242073c5e770769a47a1480a356f1cd215155da7"
+filename = "precisionprospecting-1.20.1-1.0.0.jar"
+
+[[mods.precision-prospecting.deps]]
+name = "terrafirmacraft"
+version = "3.2.7"
+providers = ["Modrinth"]
+
 [mods.puzzles-lib]
 version = "v8.1.24-1.20.1-Forge"
 server_side = true
