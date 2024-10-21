@@ -238,6 +238,19 @@ name = "cloth-config"
 version = "11.1.136+forge"
 providers = ["Modrinth"]
 
+[mods.blazemap]
+version = "Unknown"
+server_side = true
+client_side = true
+
+[[mods.blazemap.source]]
+
+[mods.blazemap.source.Download]
+url = "https://mediafilez.forgecdn.net/files/5812/75/BlazeMap-1.20.1-0.7.4-beta.jar"
+sha1 = "e66da1fcfaf907496c8cc8ced32c7e9f01c660e9"
+sha512 = "a5a170e470d12f5bc0d69ce9baf01fe892c9c6314ce54b8147fa4378abaac9495a0a765fdb7bc033d0b550e127a4398a2853cc180ca2b687908ff572c9bf867d"
+filename = "BlazeMap-1.20.1-0.7.4-beta.jar"
+
 [mods.block-runner]
 version = "v8.0.4-1.20.1-Forge"
 server_side = true
@@ -269,6 +282,19 @@ url = "https://cdn.modrinth.com/data/qa2H4BS9/versions/lauzXB0n/canary-mc1.20.1-
 sha1 = "898abd9e337ef1c677ce93f5589497a09c7e9850"
 sha512 = "38f0bec7967f9d354e46dacdbe7d284ef823270dc737a7388adde157c45a025e53d77e04a00a582900666b85402c461bee4b80345fc7f03edb5c2b96708442bd"
 filename = "canary-mc1.20.1-0.3.3.jar"
+
+[mods.cartography]
+version = "Unknown"
+server_side = true
+client_side = true
+
+[[mods.cartography.source]]
+
+[mods.cartography.source.Download]
+url = "https://mediafilez.forgecdn.net/files/5802/811/Cartography-1.20.1-0.5.1-beta.jar"
+sha1 = "85b98fcb93f99cfbd9693b32f6d2633ca903da48"
+sha512 = "bc7b247199f722155ae793aa8106ca6d605da8c1b0958a49e263e0bf00fde7cf94b8f1b9d58b6185cd076367da96f42f0e224943e0d0e84692b30f7a370ac479"
+filename = "Cartography-1.20.1-0.5.1-beta.jar"
 
 [mods.chalk-mod]
 version = "1.6.4"
@@ -1590,34 +1616,6 @@ filename = "waterflasks-3.0.2.jar"
 name = "terrafirmacraft"
 version = "3.2.7"
 providers = ["Modrinth"]
-
-[mods.xaeros-minimap-fair]
-version = "FP24.2.0_Forge_1.20"
-deps = []
-server_side = false
-client_side = true
-
-[[mods.xaeros-minimap-fair.source]]
-
-[mods.xaeros-minimap-fair.source.Download]
-url = "https://cdn.modrinth.com/data/JkSi2Fzx/versions/kN9k0jQJ/Xaeros_Minimap_FP24.2.0_Forge_1.20.jar"
-sha1 = "f1ff67cf781da9769a1e0260f8925e6889b751b7"
-sha512 = "a95a1c7575568cad6381d58bfc1bec01fde31dfd50d2112c02520d07b0c98526e1e58f7dc53b5a6cd9eb023bf6a275453196e45aae5fe35fca1d4b9d7fe2a0dc"
-filename = "Xaeros_Minimap_FP24.2.0_Forge_1.20.jar"
-
-[mods.xaeros-world-map]
-version = "1.39.0_Forge_1.20"
-deps = []
-server_side = false
-client_side = true
-
-[[mods.xaeros-world-map.source]]
-
-[mods.xaeros-world-map.source.Download]
-url = "https://cdn.modrinth.com/data/NcUtCpym/versions/zGpACLsy/XaerosWorldMap_1.39.0_Forge_1.20.jar"
-sha1 = "33704b6dd2ee6fbf1da0cffcf2001bf7f1c3dea4"
-sha512 = "009065642ee160718285a2bde5a4f9b297303f9837f48169f9c74707cf30bdf57e1d614d2507becc497efbad15ad6ecafd1d9c804ab3b66a0688b43946622dd6"
-filename = "XaerosWorldMap_1.39.0_Forge_1.20.jar"
 
 [mods.yungs-api]
 version = "1.20-Forge-4.0.6"

@@ -60,6 +60,12 @@ version = "*"
 name = "betterf3"
 version = "*"
 
+[mods.blazemap]
+name = "blazemap"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/5812/75/BlazeMap-1.20.1-0.7.4-beta.jar"
+
 [mods.block-runner]
 name = "block-runner"
 version = "*"
@@ -67,6 +73,12 @@ version = "*"
 [mods.canary]
 name = "canary"
 version = "*"
+
+[mods.cartography]
+name = "cartography"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/5802/811/Cartography-1.20.1-0.5.1-beta.jar"
 
 [mods.chalk-mod]
 name = "chalk-mod"
@@ -373,14 +385,6 @@ client_side = true
 
 [mods.water-flasks]
 name = "water-flasks"
-version = "*"
-
-[mods.xaeros-minimap-fair]
-name = "xaeros-minimap-fair"
-version = "*"
-
-[mods.xaeros-world-map]
-name = "xaeros-world-map"
 version = "*"
 
 [files."./client/config/xaerominimap.txt"]
