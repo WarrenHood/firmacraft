@@ -1,7 +1,388 @@
 pack_name = "firmacraft"
 mc_version = "1.20.1"
-modloader = "Fabric"
+modloader = "Forge"
 default_providers = ["Modrinth"]
-forbidden_mods = []
+forbidden_mods = ["fabric-api"]
 
-[mods]
+[mods.advanced-backups]
+name = "advanced-backups"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.alekiships]
+name = "alekiships"
+version = "*"
+
+[mods.alekishipsbop]
+name = "alekishipsbop"
+version = "*"
+
+[mods.alternate-current]
+name = "alternate-current"
+version = "*"
+
+[mods.appleskin]
+name = "appleskin"
+version = "*"
+
+[mods.attributes]
+name = "attributes"
+version = "*"
+
+[mods.bad-wither-no-cookie]
+name = "bad-wither-no-cookie"
+version = "*"
+
+[mods.badoptimizations]
+name = "badoptimizations"
+version = "*"
+server_side = false
+client_side = true
+
+[mods.barrels-2012]
+name = "barrels-2012"
+version = "*"
+
+[mods.better-archeology]
+name = "better-archeology"
+version = "*"
+
+[mods.better-combat]
+name = "better-combat"
+version = "*"
+
+[mods.better-third-person]
+name = "better-third-person"
+version = "*"
+
+[mods.betterf3]
+name = "betterf3"
+version = "*"
+
+[mods.block-runner]
+name = "block-runner"
+version = "*"
+
+[mods.canary]
+name = "canary"
+version = "*"
+
+[mods.chalk-mod]
+name = "chalk-mod"
+version = "*"
+
+[mods.chunky]
+name = "chunky"
+version = "*"
+server_side = true
+client_side = false
+
+[mods.clean-tooltips]
+name = "clean-tooltips"
+version = "*"
+
+[mods.cloth-config]
+name = "cloth-config"
+version = "*"
+
+[mods.clumps]
+name = "clumps"
+version = "*"
+
+[mods.connector-extras]
+name = "connector-extras"
+version = "*"
+
+[mods.continuity]
+name = "continuity"
+version = "*"
+loader = "Fabric"
+
+[mods.controlling]
+name = "controlling"
+version = "*"
+
+[mods.copycats]
+name = "copycats"
+version = "*"
+
+[mods.corpse]
+name = "corpse"
+version = "*"
+
+[mods.crafttweaker]
+name = "crafttweaker"
+version = "*"
+
+[mods.create]
+name = "create"
+version = "*"
+
+[mods.create-diesel-generators]
+name = "create-diesel-generators"
+version = "*"
+
+[mods.create-ore-excavation]
+name = "create-ore-excavation"
+version = "*"
+
+[mods.create-steam-n-rails]
+name = "create-steam-n-rails"
+version = "*"
+
+[mods.createaddition]
+name = "createaddition"
+version = "*"
+
+[mods.cristel-lib]
+name = "cristel-lib"
+version = "*"
+providers = ["Raw"]
+download_url = "https://cdn.modrinth.com/data/cl223EMc/versions/amI1oyGG/cristellib-1.1.5-forge.jar"
+server_side = true
+client_side = false
+
+[mods.curious-lanterns]
+name = "curious-lanterns"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/5245/133/curiouslanterns-1.20.1-1.3.2.jar"
+
+[mods.disable-elytra]
+name = "disable-elytra"
+version = "*"
+loader = "Fabric"
+
+[mods.embeddium]
+name = "embeddium"
+version = "*"
+
+[mods.emi]
+name = "emi"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.emi-loot]
+name = "emi-loot"
+version = "*"
+
+[mods.emi-ores]
+name = "emi-ores"
+version = "*"
+loader = "Fabric"
+
+[mods.emienchants]
+name = "emienchants"
+version = "*"
+
+[mods.emiffect]
+name = "emiffect"
+version = "*"
+
+[mods.emitrades]
+name = "emitrades"
+version = "*"
+
+[mods.entityculling]
+name = "entityculling"
+version = "*"
+
+[mods.ferrite-core]
+name = "ferrite-core"
+version = "*"
+
+[mods.firmaciv]
+name = "firmaciv"
+version = "*"
+
+[mods.firmalife]
+name = "firmalife"
+version = "*"
+
+[mods.gamemenumodoption]
+name = "gamemenumodoption"
+version = "*"
+
+[mods.hardcore-revival]
+name = "hardcore-revival"
+version = "*"
+
+[mods.immediatelyfast]
+name = "immediatelyfast"
+version = "*"
+server_side = false
+client_side = true
+
+[mods.invmove]
+name = "invmove"
+version = "*"
+
+[mods.iris-flw-compat]
+name = "iris-flw-compat"
+version = "*"
+
+[mods.jade]
+name = "jade"
+version = "*"
+
+[mods.jei]
+name = "jei"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.labels]
+name = "labels"
+version = "*"
+
+[mods.lucent]
+name = "lucent"
+version = "*"
+server_side = false
+client_side = true
+
+[mods.memoryleakfix]
+name = "memoryleakfix"
+version = "*"
+
+[mods.mobtimizations]
+name = "mobtimizations"
+version = "*"
+
+[mods.modernfix]
+name = "modernfix"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.mouse-tweaks]
+name = "mouse-tweaks"
+version = "*"
+
+[mods.natures-compass]
+name = "natures-compass"
+version = "*"
+
+[mods.noisium]
+name = "noisium"
+version = "*"
+
+[mods.oculus]
+name = "oculus"
+version = "*"
+
+[mods.patchouli]
+name = "patchouli"
+version = "*"
+
+[mods.ping-wheel]
+name = "ping-wheel"
+version = "*"
+
+[mods.polymorph]
+name = "polymorph"
+version = "*"
+
+[mods.radiant-gear]
+name = "radiant-gear"
+version = "*"
+server_side = true
+client_side = true
+
+[mods.rubidium-extra]
+name = "rubidium-extra"
+version = "*"
+
+[mods.servercore]
+name = "servercore"
+version = "*"
+
+[mods.simple-discord-rpc]
+name = "simple-discord-rpc"
+version = "*"
+
+[mods.sophisticated-backpacks]
+name = "sophisticated-backpacks"
+version = "*"
+
+[mods.sophisticated-storage]
+name = "sophisticated-storage"
+version = "*"
+
+[mods.sound]
+name = "sound"
+version = "*"
+
+[mods.sound-physics-remastered]
+name = "sound-physics-remastered"
+version = "*"
+
+[mods.spark]
+name = "spark"
+version = "*"
+
+[mods.terrafirmacraft]
+name = "terrafirmacraft"
+version = "*"
+
+[mods.tfc-ambiental-second-edition]
+name = "tfc-ambiental-second-edition"
+version = "*"
+
+[mods.tfc-cast-iron-grill]
+name = "tfc-cast-iron-grill"
+version = "*"
+
+[mods.tfc-support-indicator]
+name = "tfc-support-indicator"
+version = "*"
+
+[mods.tfc-vessel-tooltip]
+name = "tfc-vessel-tooltip"
+version = "*"
+server_side = false
+client_side = true
+
+[mods.trade-cycling]
+name = "trade-cycling"
+version = "*"
+
+[mods.xaeros-minimap]
+name = "xaeros-minimap"
+version = "*"
+
+[mods.xaeros-world-map]
+name = "xaeros-world-map"
+version = "*"
+
+[files."./client/config/xaerominimap.txt"]
+target_path = "config/xaerominimap.txt"
+side = "Client"
+apply_policy = "Once"
+
+[files."./client/options.txt"]
+target_path = "options.txt"
+side = "Client"
+apply_policy = "Once"
+
+[files."./client/servers.dat"]
+target_path = "servers.dat"
+side = "Client"
+apply_policy = "Always"
+
+[files."./server/config/AdvancedBackups.properties"]
+target_path = "config/AdvancedBackups.properties"
+side = "Server"
+apply_policy = "Always"
+
+[files."./server/server.properties"]
+target_path = "server.properties"
+side = "Server"
+apply_policy = "Always"
+
+[files."./server/whitelist.json"]
+target_path = "whitelist.json"
+side = "Server"
+apply_policy = "Always"
