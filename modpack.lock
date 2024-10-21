@@ -1325,6 +1325,20 @@ name = "craterlib"
 version = "1.20-2.1.1"
 providers = ["Modrinth"]
 
+[mods.simple-voice-chat]
+version = "forge-1.20.1-2.5.24"
+deps = []
+server_side = true
+client_side = true
+
+[[mods.simple-voice-chat.source]]
+
+[mods.simple-voice-chat.source.Download]
+url = "https://cdn.modrinth.com/data/9eGKb6K1/versions/HnqkhD6b/voicechat-forge-1.20.1-2.5.24.jar"
+sha1 = "e9526c0ec56d94c0641f8b31d13081c40bcd7a5a"
+sha512 = "4d1dc50c1b9a0c0a7191edb704ff2498045952b499a55882e9259118fccc275426f1baab6e0a4b0c05fb66033f4d90aa7a67043c73e76f050ede404abbc68b46"
+filename = "voicechat-forge-1.20.1-2.5.24.jar"
+
 [mods.sophisticated-backpacks]
 version = "1.20.1-3.20.11.1115"
 server_side = true

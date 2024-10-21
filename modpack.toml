@@ -311,6 +311,10 @@ version = "*"
 name = "simple-discord-rpc"
 version = "*"
 
+[mods.simple-voice-chat]
+name = "simple-voice-chat"
+version = "*"
+
 [mods.sophisticated-backpacks]
 name = "sophisticated-backpacks"
 version = "*"
