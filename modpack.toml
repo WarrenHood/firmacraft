@@ -26,6 +26,10 @@ version = "*"
 name = "appleskin"
 version = "*"
 
+[mods."arborfirmacraft-(afc)"]
+name = "arborfirmacraft-(afc)"
+version = "*"
+
 [mods.attributes]
 name = "attributes"
 version = "*"
@@ -339,6 +343,10 @@ version = "*"
 name = "tfc-ambiental-second-edition"
 version = "*"
 
+[mods.tfc-astikor-carts]
+name = "tfc-astikor-carts"
+version = "*"
+
 [mods.tfc-cast-iron-grill]
 name = "tfc-cast-iron-grill"
 version = "*"
@@ -355,6 +363,10 @@ client_side = true
 
 [mods.trade-cycling]
 name = "trade-cycling"
+version = "*"
+
+[mods.water-flasks]
+name = "water-flasks"
 version = "*"
 
 [mods.xaeros-minimap]

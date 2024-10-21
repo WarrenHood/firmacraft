@@ -73,6 +73,42 @@ sha1 = "81919356f84eab14258db98924b66c3c38e372b1"
 sha512 = "3176f928fb6c60d27f5edb610ca4ab0236175404eebf32797a1ec6cdd794bb294a260231579578536d03571377e43c6181adc75d8dd2c0733f17fce4f7e636b9"
 filename = "appleskin-forge-mc1.20.1-2.5.1.jar"
 
+[mods."arborfirmacraft-(afc)"]
+version = "1.0.13-1.20.1"
+server_side = true
+client_side = true
+
+[[mods."arborfirmacraft-(afc)".source]]
+
+[mods."arborfirmacraft-(afc)".source.Download]
+url = "https://cdn.modrinth.com/data/9q4wtMjp/versions/yZ9b2MTz/afc-1.0.13-1.20.1.jar"
+sha1 = "64c78e916235aa269384e56b59cf69130e86ade8"
+sha512 = "d8a466ad0477065ac1da0d0eb6be173ca3fdbf3063fb4e686e6af73992afdba67dcbbe84690106d95383a3f81ba0fd5895d06580da6cb22a4d9a1600fdef5085"
+filename = "afc-1.0.13-1.20.1.jar"
+
+[[mods."arborfirmacraft-(afc)".deps]]
+name = "patchouli"
+version = "1.20.1-84-forge"
+providers = ["Modrinth"]
+
+[[mods."arborfirmacraft-(afc)".deps]]
+name = "terrafirmacraft"
+version = "3.2.7"
+providers = ["Modrinth"]
+
+[mods.astikorcarts-redux]
+version = "1.1.8b"
+server_side = true
+client_side = true
+
+[[mods.astikorcarts-redux.source]]
+
+[mods.astikorcarts-redux.source.Download]
+url = "https://cdn.modrinth.com/data/mnLFouB0/versions/p3r1QBKd/astikorcarts-1.20.1-1.1.8.jar"
+sha1 = "49a8ac1c23282fe86420f0b4527e522421f2f692"
+sha512 = "b75bd70ba76b0f82ab4dd546594ff7121849b3c6a574afbfcdb1acc9596559230019628a6197c420e9b96233482780f896574d868f046ef1c61a61c8928d9888"
+filename = "astikorcarts-1.20.1-1.1.8.jar"
+
 [mods.attributes]
 version = "0.6.0"
 server_side = true
@@ -1486,6 +1522,29 @@ sha1 = "e1bc92959d8cbfb1d8f16dc124a14a0709d6aba6"
 sha512 = "775a6cbe712e13c26061f34670ae417b382e79adbd69ed63b104fb0e4721b23e230c5328b671b9cf8eab7ea0b1c9ccc602f650da8c81923c2be90470e3b37641"
 filename = "tfcambiental-1.20.1-3.3.0.jar"
 
+[mods.tfc-astikor-carts]
+version = "1.1.8.3"
+server_side = true
+client_side = true
+
+[[mods.tfc-astikor-carts.source]]
+
+[mods.tfc-astikor-carts.source.Download]
+url = "https://cdn.modrinth.com/data/Q7dNt3PU/versions/UVsPFqtl/TFCAstikorCarts-1.20.1-1.1.8.3.jar"
+sha1 = "1a64a638d83e7b33d1f4c589ac0bc3005ffec34f"
+sha512 = "6f2cfc309ba735f1bb423be39a19b1e726b96238d2ac81e93ea55dc10d9c08652d48c16eacb17c9a8cb466904b0c478702b4a35004665a908d986a3cfdf173be"
+filename = "TFCAstikorCarts-1.20.1-1.1.8.3.jar"
+
+[[mods.tfc-astikor-carts.deps]]
+name = "astikorcarts-redux"
+version = "1.1.8b"
+providers = ["Modrinth"]
+
+[[mods.tfc-astikor-carts.deps]]
+name = "terrafirmacraft"
+version = "3.2.7"
+providers = ["Modrinth"]
+
 [mods.tfc-cast-iron-grill]
 version = "2.3"
 server_side = true
@@ -1557,6 +1616,24 @@ url = "https://cdn.modrinth.com/data/qpPoAL6m/versions/6JjTwphz/trade-cycling-fo
 sha1 = "ff733a817e7c1b1d3af0ccdfc2342846f2a5d485"
 sha512 = "edc8987ea78ba15eb229d5e565d66f0767b554f9fdf05ba188849b549b81ea7ae6940c8afffa049dbb1962c5ef4dd93e37a60289564bcdd09f09ae17d68004ab"
 filename = "trade-cycling-forge-1.20.1-1.0.15.jar"
+
+[mods.water-flasks]
+version = "3.0.2"
+server_side = true
+client_side = true
+
+[[mods.water-flasks.source]]
+
+[mods.water-flasks.source.Download]
+url = "https://cdn.modrinth.com/data/ONgsGaM9/versions/u4ZHiXon/waterflasks-3.0.2.jar"
+sha1 = "f3273b3c1eb370130f07fc4e55ed2eebae666c40"
+sha512 = "73c877f4f737ddb64e981b8c633881c2231f4924bc310559d9c1e1f18a61afbe5e547172f781c5a39e688eae9e1974bfe6ad7900fe2c00b937dfcf4daa40d249"
+filename = "waterflasks-3.0.2.jar"
+
+[[mods.water-flasks.deps]]
+name = "terrafirmacraft"
+version = "3.2.7"
+providers = ["Modrinth"]
 
 [mods.xaeros-minimap]
 version = "24.5.0_Forge_1.20"
