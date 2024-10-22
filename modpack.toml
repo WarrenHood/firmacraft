@@ -48,10 +48,6 @@ version = "*"
 name = "better-archeology"
 version = "*"
 
-[mods.better-combat]
-name = "better-combat"
-version = "*"
-
 [mods.better-third-person]
 name = "better-third-person"
 version = "*"
