@@ -401,6 +401,10 @@ version = "*"
 providers = ["Raw"]
 download_url = "https://mediafilez.forgecdn.net/files/5046/696/tfcchannelcasting-0.2.3-beta.jar"
 
+[mods.tfc-hot-or-not]
+name = "tfc-hot-or-not"
+version = "*"
+
 [mods.tfc-ie-crossover]
 name = "tfc-ie-crossover"
 version = "*"
@@ -419,10 +423,6 @@ client_side = true
 
 [mods.tfc-weather]
 name = "tfc-weather"
-version = "*"
-
-[mods.trade-cycling]
-name = "trade-cycling"
 version = "*"
 
 [mods.true-darkness-forge-updated-fork]

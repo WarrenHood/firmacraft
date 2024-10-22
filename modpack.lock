@@ -1691,6 +1691,24 @@ sha1 = "346a53a23f069d8f9b16f14ecef3b9ab247d0e49"
 sha512 = "e7eb796315196a8a59c01770f1243bd97606ad7d24f85c99fe7e994cc32db4217f6453ea65dd63d5bf3fcb4992c94e8d704ebf82b6205c2d0cfb8f91a37e4783"
 filename = "tfcchannelcasting-0.2.3-beta.jar"
 
+[mods.tfc-hot-or-not]
+version = "1.0.10"
+server_side = true
+client_side = true
+
+[[mods.tfc-hot-or-not.source]]
+
+[mods.tfc-hot-or-not.source.Download]
+url = "https://cdn.modrinth.com/data/6fOyWxrE/versions/LZxE5Ddk/TFCHotOrNot-1.20.1-1.0.10.jar"
+sha1 = "2cd13566afa21492309a6f3c3cb085caffbafc33"
+sha512 = "a2489425349af76b4107adad5dfb3aa0be4e36b14990abe2736b5f7f4434bddc1798d481ae6318c2ee213830f63efb77dc458a93ea8032c1f5ea40004f01cff5"
+filename = "TFCHotOrNot-1.20.1-1.0.10.jar"
+
+[[mods.tfc-hot-or-not.deps]]
+name = "terrafirmacraft"
+version = "3.2.7"
+providers = ["Modrinth"]
+
 [mods.tfc-ie-crossover]
 version = "Unknown"
 server_side = true
@@ -1785,19 +1803,6 @@ url = "https://cdn.modrinth.com/data/1Ro7m06l/versions/8krhHkrZ/titanium-1.20.1-
 sha1 = "4672c64a8019e81a4a6c8239f20661d5edbd5da1"
 sha512 = "c4563176fad77499859691d8b5e18c35e08fec0a31f57f9e51f3538462f1ad738fb29335fc46d5857bffbdfc2dbd49bb32dc96614876d1f858b8cc81d6264057"
 filename = "titanium-1.20.1-3.8.32.jar"
-
-[mods.trade-cycling]
-version = "forge-1.20.1-1.0.15"
-server_side = true
-client_side = true
-
-[[mods.trade-cycling.source]]
-
-[mods.trade-cycling.source.Download]
-url = "https://cdn.modrinth.com/data/qpPoAL6m/versions/6JjTwphz/trade-cycling-forge-1.20.1-1.0.15.jar"
-sha1 = "ff733a817e7c1b1d3af0ccdfc2342846f2a5d485"
-sha512 = "edc8987ea78ba15eb229d5e565d66f0767b554f9fdf05ba188849b549b81ea7ae6940c8afffa049dbb1962c5ef4dd93e37a60289564bcdd09f09ae17d68004ab"
-filename = "trade-cycling-forge-1.20.1-1.0.15.jar"
 
 [mods.true-darkness-forge-updated-fork]
 version = "2.0.103"
