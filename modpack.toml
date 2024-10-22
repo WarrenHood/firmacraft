@@ -115,36 +115,12 @@ loader = "Fabric"
 name = "controlling"
 version = "*"
 
-[mods.copycats]
-name = "copycats"
-version = "*"
-
 [mods.corpse]
 name = "corpse"
 version = "*"
 
 [mods.crafttweaker]
 name = "crafttweaker"
-version = "*"
-
-[mods.create]
-name = "create"
-version = "*"
-
-[mods.create-diesel-generators]
-name = "create-diesel-generators"
-version = "*"
-
-[mods.create-ore-excavation]
-name = "create-ore-excavation"
-version = "*"
-
-[mods.create-steam-n-rails]
-name = "create-steam-n-rails"
-version = "*"
-
-[mods.createaddition]
-name = "createaddition"
 version = "*"
 
 [mods.cristel-lib]
@@ -251,10 +227,6 @@ download_url = "https://cdn.modrinth.com/data/tIm2nV03/versions/MAqXk6P8/Immersi
 name = "invmove"
 version = "*"
 
-[mods.iris-flw-compat]
-name = "iris-flw-compat"
-version = "*"
-
 [mods.itemphysic]
 name = "itemphysic"
 version = "*"
@@ -271,10 +243,6 @@ client_side = true
 
 [mods.kubejs]
 name = "kubejs"
-version = "*"
-
-[mods.kubejs-create]
-name = "kubejs-create"
 version = "*"
 
 [mods.labels]
