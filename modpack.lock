@@ -253,7 +253,7 @@ providers = ["Modrinth"]
 
 [mods.blazemap]
 version = "Unknown"
-server_side = true
+server_side = false
 client_side = true
 
 [[mods.blazemap.source]]
@@ -298,7 +298,7 @@ filename = "canary-mc1.20.1-0.3.3.jar"
 
 [mods.cartography]
 version = "Unknown"
-server_side = true
+server_side = false
 client_side = true
 
 [[mods.cartography.source]]
