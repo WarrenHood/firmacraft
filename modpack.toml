@@ -414,6 +414,11 @@ target_path = "servers.dat"
 side = "Client"
 apply_policy = "Always"
 
+[files."./client/shaderpacks/Sildur's Vibrant Shaders v1.52 High.zip"]
+target_path = "shaderpacks/Sildur's Vibrant Shaders v1.52 High.zip"
+side = "Client"
+apply_policy = "Always"
+
 [files."./kubejs"]
 target_path = "./kubejs"
 side = "Server"
