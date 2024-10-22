@@ -373,6 +373,12 @@ version = "*"
 name = "tfc-cast-iron-grill"
 version = "*"
 
+[mods.tfc-casting-with-channels]
+name = "tfc-casting-with-channels"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/5046/696/tfcchannelcasting-0.2.3-beta.jar"
+
 [mods.tfc-support-indicator]
 name = "tfc-support-indicator"
 version = "*"

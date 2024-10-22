@@ -1575,6 +1575,19 @@ name = "terrafirmacraft"
 version = "3.2.7"
 providers = ["Modrinth"]
 
+[mods.tfc-casting-with-channels]
+version = "Unknown"
+server_side = true
+client_side = true
+
+[[mods.tfc-casting-with-channels.source]]
+
+[mods.tfc-casting-with-channels.source.Download]
+url = "https://mediafilez.forgecdn.net/files/5046/696/tfcchannelcasting-0.2.3-beta.jar"
+sha1 = "346a53a23f069d8f9b16f14ecef3b9ab247d0e49"
+sha512 = "e7eb796315196a8a59c01770f1243bd97606ad7d24f85c99fe7e994cc32db4217f6453ea65dd63d5bf3fcb4992c94e8d704ebf82b6205c2d0cfb8f91a37e4783"
+filename = "tfcchannelcasting-0.2.3-beta.jar"
+
 [mods.tfc-support-indicator]
 version = "1.0.3+mc1.20.1"
 server_side = false
