@@ -50,29 +50,6 @@ sha1 = "81919356f84eab14258db98924b66c3c38e372b1"
 sha512 = "3176f928fb6c60d27f5edb610ca4ab0236175404eebf32797a1ec6cdd794bb294a260231579578536d03571377e43c6181adc75d8dd2c0733f17fce4f7e636b9"
 filename = "appleskin-forge-mc1.20.1-2.5.1.jar"
 
-[mods."arborfirmacraft-(afc)"]
-version = "1.0.13-1.20.1"
-server_side = true
-client_side = true
-
-[[mods."arborfirmacraft-(afc)".source]]
-
-[mods."arborfirmacraft-(afc)".source.Download]
-url = "https://cdn.modrinth.com/data/9q4wtMjp/versions/yZ9b2MTz/afc-1.0.13-1.20.1.jar"
-sha1 = "64c78e916235aa269384e56b59cf69130e86ade8"
-sha512 = "d8a466ad0477065ac1da0d0eb6be173ca3fdbf3063fb4e686e6af73992afdba67dcbbe84690106d95383a3f81ba0fd5895d06580da6cb22a4d9a1600fdef5085"
-filename = "afc-1.0.13-1.20.1.jar"
-
-[[mods."arborfirmacraft-(afc)".deps]]
-name = "patchouli"
-version = "1.20.1-84-forge"
-providers = ["Modrinth"]
-
-[[mods."arborfirmacraft-(afc)".deps]]
-name = "terrafirmacraft"
-version = "3.2.7"
-providers = ["Modrinth"]
-
 [mods.architectury-api]
 version = "9.2.14+forge"
 server_side = true

@@ -22,10 +22,6 @@ version = "*"
 name = "appleskin"
 version = "*"
 
-[mods."arborfirmacraft-(afc)"]
-name = "arborfirmacraft-(afc)"
-version = "*"
-
 [mods.attributes]
 name = "attributes"
 version = "*"
