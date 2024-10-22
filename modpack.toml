@@ -405,6 +405,10 @@ version = "*"
 server_side = false
 client_side = true
 
+[mods.tfc-weather]
+name = "tfc-weather"
+version = "*"
+
 [mods.trade-cycling]
 name = "trade-cycling"
 version = "*"

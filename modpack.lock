@@ -1673,6 +1673,34 @@ name = "terrafirmacraft"
 version = "3.2.7"
 providers = ["Modrinth"]
 
+[mods.tfc-weather]
+version = "1.6.11"
+server_side = true
+client_side = true
+
+[[mods.tfc-weather.source]]
+
+[mods.tfc-weather.source.Download]
+url = "https://cdn.modrinth.com/data/kQt5u4UL/versions/AOlqMhhd/TFCWeather-1.20.1-1.6.11.jar"
+sha1 = "d9b179206530c7cd92dd366604ca37e168d4746f"
+sha512 = "343ffcb33e3bc96ef485618d6e3b68593800c432d8e6b46230b065410c9de77b615c3329862cc0fef07cbe5082aa8fba855eeb6faa81fc809f0078ce78301642"
+filename = "TFCWeather-1.20.1-1.6.11.jar"
+
+[[mods.tfc-weather.deps]]
+name = "coroutil"
+version = "1.20.1-1.3.7"
+providers = ["Modrinth"]
+
+[[mods.tfc-weather.deps]]
+name = "terrafirmacraft"
+version = "3.2.7"
+providers = ["Modrinth"]
+
+[[mods.tfc-weather.deps]]
+name = "weather-storms-tornadoes"
+version = "1.20.1-2.8.3"
+providers = ["Modrinth"]
+
 [mods.titanium]
 version = "1.20.1-3.8.32"
 server_side = true
