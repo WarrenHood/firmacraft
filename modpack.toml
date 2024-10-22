@@ -223,6 +223,10 @@ version = "*"
 name = "firmalife"
 version = "*"
 
+[mods.functional-storage]
+name = "functional-storage"
+version = "*"
+
 [mods.gamemenumodoption]
 name = "gamemenumodoption"
 version = "*"
@@ -413,6 +417,10 @@ client_side = true
 
 [mods.water-flasks]
 name = "water-flasks"
+version = "*"
+
+[mods.weather-storms-tornadoes]
+name = "weather-storms-tornadoes"
 version = "*"
 
 [files."./client/config/xaerominimap.txt"]

@@ -904,6 +904,24 @@ sha1 = "d5680a4d2e2dde45115e41a5e22f6b32f9c80f50"
 sha512 = "1222d70e0a403d98a6431806c4357b191fda4bb928eaf7e70b7374cffd0ceae8716812a4d2a0e09ddfeee7adfcb8a6ee8e046c4663ca272c6eb1badab83696c5"
 filename = "fabric-api-0.92.2+1.11.8+1.20.1.jar"
 
+[mods.functional-storage]
+version = "1.20.1-1.2.12"
+server_side = true
+client_side = true
+
+[[mods.functional-storage.source]]
+
+[mods.functional-storage.source.Download]
+url = "https://cdn.modrinth.com/data/cO40ZIg3/versions/HpvTQCZn/functionalstorage-1.20.1-1.2.12.jar"
+sha1 = "5e1c98a440f93eac4269a2ab3ac86912eab825bb"
+sha512 = "36437ef7d88e45fc26424173542533fef4537ecd292cdb34c0802d91e55751986301e541704fbe3c29869f85a6c427be531817ffb01e46fe293f3ca400a42eae"
+filename = "functionalstorage-1.20.1-1.2.12.jar"
+
+[[mods.functional-storage.deps]]
+name = "titanium"
+version = "1.20.1-3.8.32"
+providers = ["Modrinth"]
+
 [mods.fzzy-config]
 version = "0.5.4+1.20.1+forge"
 server_side = true
@@ -1655,6 +1673,19 @@ name = "terrafirmacraft"
 version = "3.2.7"
 providers = ["Modrinth"]
 
+[mods.titanium]
+version = "1.20.1-3.8.32"
+server_side = true
+client_side = true
+
+[[mods.titanium.source]]
+
+[mods.titanium.source.Download]
+url = "https://cdn.modrinth.com/data/1Ro7m06l/versions/8krhHkrZ/titanium-1.20.1-3.8.32.jar"
+sha1 = "4672c64a8019e81a4a6c8239f20661d5edbd5da1"
+sha512 = "c4563176fad77499859691d8b5e18c35e08fec0a31f57f9e51f3538462f1ad738fb29335fc46d5857bffbdfc2dbd49bb32dc96614876d1f858b8cc81d6264057"
+filename = "titanium-1.20.1-3.8.32.jar"
+
 [mods.trade-cycling]
 version = "forge-1.20.1-1.0.15"
 server_side = true
@@ -1698,6 +1729,24 @@ filename = "waterflasks-3.0.2.jar"
 [[mods.water-flasks.deps]]
 name = "terrafirmacraft"
 version = "3.2.7"
+providers = ["Modrinth"]
+
+[mods.weather-storms-tornadoes]
+version = "1.20.1-2.8.3"
+server_side = true
+client_side = true
+
+[[mods.weather-storms-tornadoes.source]]
+
+[mods.weather-storms-tornadoes.source.Download]
+url = "https://cdn.modrinth.com/data/dv5SFk5T/versions/ZKVtwI5D/weather2-1.20.1-2.8.3.jar"
+sha1 = "4ec7a372945874dd734a20fa61574f08d2b6763a"
+sha512 = "240bd2eadfb47c6f8e201105e0d69f4ffe6957ec97d95200c01904edd6eca6b42cb61c67b58492a5fd0b0c306108519980f89c5382d168c5c71dbae95e72bb49"
+filename = "weather2-1.20.1-2.8.3.jar"
+
+[[mods.weather-storms-tornadoes.deps]]
+name = "coroutil"
+version = "1.20.1-1.3.7"
 providers = ["Modrinth"]
 
 [mods.yungs-api]
