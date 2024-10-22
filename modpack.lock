@@ -1356,6 +1356,24 @@ name = "terrafirmacraft"
 version = "3.2.7"
 providers = ["Modrinth"]
 
+[mods.probejs]
+version = "7.0.0"
+server_side = false
+client_side = true
+
+[[mods.probejs.source]]
+
+[mods.probejs.source.Download]
+url = "https://cdn.modrinth.com/data/JJNYRb4B/versions/oiljyqSe/probejs-7.0.0-forge.jar"
+sha1 = "77e3583413568ea27745aeffb2bfc3b0128238ee"
+sha512 = "b10620235e860ef293be856c05d9f7c50a17813b898f18b4534cbf25c4da4e97494be98e460a98a449f05ba1c10e29d00aca62ac27f72138057cda1e72a22eee"
+filename = "probejs-7.0.0-forge.jar"
+
+[[mods.probejs.deps]]
+name = "kubejs"
+version = "2001.6.5-build.14+forge"
+providers = ["Modrinth"]
+
 [mods.puzzles-lib]
 version = "v8.1.24-1.20.1-Forge"
 server_side = true
