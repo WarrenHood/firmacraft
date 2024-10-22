@@ -73,6 +73,19 @@ name = "terrafirmacraft"
 version = "3.2.7"
 providers = ["Modrinth"]
 
+[mods.architectury-api]
+version = "9.2.14+forge"
+server_side = true
+client_side = true
+
+[[mods.architectury-api.source]]
+
+[mods.architectury-api.source.Download]
+url = "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar"
+sha1 = "a52918a500ff421180a1cbd1a0cabee712134ec4"
+sha512 = "cf67f2050cafa00f0bee42e6d7bef77fdb808ac4f71742f7b4d6d5c1e6ffb49561a5a252f332d2b78a9767bdb5faa284611790dba303fbdc736ae36d794f61c7"
+filename = "architectury-9.2.14-forge.jar"
+
 [mods.astikorcarts-redux]
 version = "1.1.8b"
 server_side = true
@@ -1091,6 +1104,29 @@ sha1 = "1fd8acfd75a2be2dc3cdcc7e816482b2e427d6e5"
 sha512 = "d72707078f0c4fde78981c638ca976722f22a64ce74bdb489258790fe9886d763a7b1e0dfbc5429ddd3105d8a65d177f06242dfb1457e219e56c70dd3e8cbf2c"
 filename = "kotlinforforge-4.11.0-all.jar"
 
+[mods.kubejs]
+version = "2001.6.5-build.14+forge"
+server_side = true
+client_side = true
+
+[[mods.kubejs.source]]
+
+[mods.kubejs.source.Download]
+url = "https://cdn.modrinth.com/data/umyGl7zF/versions/AhYGbfUn/kubejs-forge-2001.6.5-build.14.jar"
+sha1 = "3a40e639a6b7576deeb1f9e5379beaba85c15280"
+sha512 = "d35ab35c2e589b332283c99627ef50de5248e6f1050724bbdf5f3c253b90f85181a23bbf501c6fdcf1bec38cbfc1fdfbdb72e1a72e261aace3b3b721a8524286"
+filename = "kubejs-forge-2001.6.5-build.14.jar"
+
+[[mods.kubejs.deps]]
+name = "architectury-api"
+version = "9.2.14+forge"
+providers = ["Modrinth"]
+
+[[mods.kubejs.deps]]
+name = "rhino"
+version = "2001.2.3-build.6+forge"
+providers = ["Modrinth"]
+
 [mods.labels]
 version = "1.20-1.20.1"
 server_side = true
@@ -1350,6 +1386,19 @@ filename = "radiantgear-forge-2.1.5+1.20.1.jar"
 name = "curios"
 version = "5.10.0+1.20.1"
 providers = ["Modrinth"]
+
+[mods.rhino]
+version = "2001.2.3-build.6+forge"
+server_side = true
+client_side = true
+
+[[mods.rhino.source]]
+
+[mods.rhino.source.Download]
+url = "https://cdn.modrinth.com/data/sk9knFPE/versions/maCpsT70/rhino-forge-2001.2.3-build.6.jar"
+sha1 = "0c91c1710d7338f139b7cb3465f00590e210139e"
+sha512 = "5e9f06561b776c472848d0f44461ad4daef64b08db9734ced785fede6198748f785f7ca721f806cf118c995bc43b2807e138845962b43fa2d91d97d972237341"
+filename = "rhino-forge-2001.2.3-build.6.jar"
 
 [mods.rubidium-extra]
 version = "0.5.4.3+mc1.20.1-build.121"

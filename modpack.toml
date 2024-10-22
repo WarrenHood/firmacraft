@@ -269,6 +269,10 @@ version = "*"
 server_side = true
 client_side = true
 
+[mods.kubejs]
+name = "kubejs"
+version = "*"
+
 [mods.labels]
 name = "labels"
 version = "*"
