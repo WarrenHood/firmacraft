@@ -661,6 +661,50 @@ version = "0.92.2+1.20.1"
 providers = ["Modrinth"]
 loader = "Fabric"
 
+[mods.dynamictrees]
+version = "1.20.1-1.4.0-ALPHA02"
+server_side = true
+client_side = true
+
+[[mods.dynamictrees.source]]
+
+[mods.dynamictrees.source.Download]
+url = "https://cdn.modrinth.com/data/vdjF5PL5/versions/H0l2y55T/DynamicTrees-1.20.1-1.4.0-ALPHA02.jar"
+sha1 = "49edef44ae304a68b31b0d51d59f5a14c806761f"
+sha512 = "0e6111d663f9dee207f384fa3387bc30ad50e96de173f9d01b05ebcc1b8a04755eb58481e678c9dcff19bc75f1d2ea11145be9778dcdd3a2f299cc50ddf4cb6c"
+filename = "DynamicTrees-1.20.1-1.4.0-ALPHA02.jar"
+
+[mods.dynamictreesplus]
+version = "1.20.1-1.2.0-BETA3"
+server_side = true
+client_side = true
+
+[[mods.dynamictreesplus.source]]
+
+[mods.dynamictreesplus.source.Download]
+url = "https://cdn.modrinth.com/data/qaO9Dqpu/versions/nOJ2Yzpr/DynamicTreesPlus-1.20.1-1.2.0-BETA3.jar"
+sha1 = "c1acdaf1975a77928736fbf8af5661c93a0c2202"
+sha512 = "a1effd5e9c1d51932748f75b66a24278b373b4535de4894d7125e4e0225103bf79d07c8538a8aadc4a2296bbd82f3916e7b6140b6562a597b26cffd6d8c061b6"
+filename = "DynamicTreesPlus-1.20.1-1.2.0-BETA3.jar"
+
+[[mods.dynamictreesplus.deps]]
+name = "dynamictrees"
+version = "1.20.1-1.4.0-ALPHA02"
+providers = ["Modrinth"]
+
+[mods.dynamictreestfc]
+version = "Unknown"
+server_side = true
+client_side = true
+
+[[mods.dynamictreestfc.source]]
+
+[mods.dynamictreestfc.source.Download]
+url = "https://mediafilez.forgecdn.net/files/5509/191/DynamicTreesTFC-1.20.1-2.0.0-alpha1.jar"
+sha1 = "976264e69a769450ab774854d9fa1d3c4518ec7e"
+sha512 = "5b481d798e77a64151ab96c5f8daeb1906d5da54b2dd2588cc01a710a8cae8bf4348514bbf4afd2711a00ac915e2b7d7e8e97562ecb33180c10f06b19a361965"
+filename = "DynamicTreesTFC-1.20.1-2.0.0-alpha1.jar"
+
 [mods.embeddium]
 version = "0.3.31+mc1.20.1"
 deps = []

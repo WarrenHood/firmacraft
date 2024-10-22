@@ -166,6 +166,16 @@ name = "disable-elytra"
 version = "*"
 loader = "Fabric"
 
+[mods.dynamictreesplus]
+name = "dynamictreesplus"
+version = "*"
+
+[mods.dynamictreestfc]
+name = "dynamictreestfc"
+version = "*"
+providers = ["Raw"]
+download_url = "https://mediafilez.forgecdn.net/files/5509/191/DynamicTreesTFC-1.20.1-2.0.0-alpha1.jar"
+
 [mods.embeddium]
 name = "embeddium"
 version = "*"
