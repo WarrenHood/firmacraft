@@ -337,12 +337,6 @@ version = "*"
 name = "precision-prospecting"
 version = "*"
 
-[mods.probejs]
-name = "probejs"
-version = "*"
-server_side = false
-client_side = true
-
 [mods.radiant-gear]
 name = "radiant-gear"
 version = "*"
