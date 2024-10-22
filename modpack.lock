@@ -791,24 +791,6 @@ sha1 = "d5680a4d2e2dde45115e41a5e22f6b32f9c80f50"
 sha512 = "1222d70e0a403d98a6431806c4357b191fda4bb928eaf7e70b7374cffd0ceae8716812a4d2a0e09ddfeee7adfcb8a6ee8e046c4663ca272c6eb1badab83696c5"
 filename = "fabric-api-0.92.2+1.11.8+1.20.1.jar"
 
-[mods.functional-storage]
-version = "1.20.1-1.2.12"
-server_side = true
-client_side = true
-
-[[mods.functional-storage.source]]
-
-[mods.functional-storage.source.Download]
-url = "https://cdn.modrinth.com/data/cO40ZIg3/versions/HpvTQCZn/functionalstorage-1.20.1-1.2.12.jar"
-sha1 = "5e1c98a440f93eac4269a2ab3ac86912eab825bb"
-sha512 = "36437ef7d88e45fc26424173542533fef4537ecd292cdb34c0802d91e55751986301e541704fbe3c29869f85a6c427be531817ffb01e46fe293f3ca400a42eae"
-filename = "functionalstorage-1.20.1-1.2.12.jar"
-
-[[mods.functional-storage.deps]]
-name = "titanium"
-version = "1.20.1-3.8.32"
-providers = ["Modrinth"]
-
 [mods.fzzy-config]
 version = "0.5.4+1.20.1+forge"
 server_side = true
@@ -1609,19 +1591,6 @@ providers = ["Modrinth"]
 name = "weather-storms-tornadoes"
 version = "1.20.1-2.8.3"
 providers = ["Modrinth"]
-
-[mods.titanium]
-version = "1.20.1-3.8.32"
-server_side = true
-client_side = true
-
-[[mods.titanium.source]]
-
-[mods.titanium.source.Download]
-url = "https://cdn.modrinth.com/data/1Ro7m06l/versions/8krhHkrZ/titanium-1.20.1-3.8.32.jar"
-sha1 = "4672c64a8019e81a4a6c8239f20661d5edbd5da1"
-sha512 = "c4563176fad77499859691d8b5e18c35e08fec0a31f57f9e51f3538462f1ad738fb29335fc46d5857bffbdfc2dbd49bb32dc96614876d1f858b8cc81d6264057"
-filename = "titanium-1.20.1-3.8.32.jar"
 
 [mods.true-darkness-forge-updated-fork]
 version = "2.0.103"

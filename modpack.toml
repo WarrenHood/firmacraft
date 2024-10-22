@@ -199,10 +199,6 @@ version = "*"
 name = "firmalife"
 version = "*"
 
-[mods.functional-storage]
-name = "functional-storage"
-version = "*"
-
 [mods.gamemenumodoption]
 name = "gamemenumodoption"
 version = "*"
