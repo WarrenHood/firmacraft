@@ -1127,6 +1127,29 @@ name = "rhino"
 version = "2001.2.3-build.6+forge"
 providers = ["Modrinth"]
 
+[mods.kubejs-create]
+version = "2001.2.5-build.2+forge"
+server_side = true
+client_side = true
+
+[[mods.kubejs-create.source]]
+
+[mods.kubejs-create.source.Download]
+url = "https://cdn.modrinth.com/data/T38eAZQC/versions/hei9cDRa/kubejs-create-forge-2001.2.5-build.2.jar"
+sha1 = "b5548110822245de13c7adf1d10e00ecab9cd633"
+sha512 = "629756b7d6504fe4d989ce60a5ca785ab2ad17dc018d4766a437d7b2b384db9c5930c257c484874168c8f832f4503d174e13513dce16c4b983e0e141f1b95250"
+filename = "kubejs-create-forge-2001.2.5-build.2.jar"
+
+[[mods.kubejs-create.deps]]
+name = "create"
+version = "1.20.1-0.5.1.i"
+providers = ["Modrinth"]
+
+[[mods.kubejs-create.deps]]
+name = "kubejs"
+version = "2001.6.5-build.14+forge"
+providers = ["Modrinth"]
+
 [mods.labels]
 version = "1.20-1.20.1"
 server_side = true

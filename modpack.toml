@@ -277,6 +277,10 @@ client_side = true
 name = "kubejs"
 version = "*"
 
+[mods.kubejs-create]
+name = "kubejs-create"
+version = "*"
+
 [mods.labels]
 name = "labels"
 version = "*"
