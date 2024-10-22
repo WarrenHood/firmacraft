@@ -966,6 +966,19 @@ sha1 = "67d7d1db76aee6e7e850abf1f4c032ec6ec93239"
 sha512 = "7492c6c82d5a6ea288547f5533a990d93ed3858054cd03298d184ee294d9e8a2692456ab286394fb5dd49841833bb551552bfbf018e24f8e9d22e034fb128eca"
 filename = "ImmediatelyFast-Forge-1.2.21+1.20.4.jar"
 
+[mods.immersiveengineering]
+version = "Unknown"
+server_side = true
+client_side = true
+
+[[mods.immersiveengineering.source]]
+
+[mods.immersiveengineering.source.Download]
+url = "https://cdn.modrinth.com/data/tIm2nV03/versions/MAqXk6P8/ImmersiveEngineering-1.20.1-10.1.0-171.jar"
+sha1 = "2890867c3aa98dc5e6dc44c9c00b245afd84a679"
+sha512 = "67799376646e3a01483c6d9f740b3c59c49fe4791e7464f21d5316cfa8f46327d58f4f375b884f5bea32b325b695e02f8b7ede62543b5f755134f076fe2b590d"
+filename = "ImmersiveEngineering-1.20.1-10.1.0-171.jar"
+
 [mods.invmove]
 version = "1.20-0.8.4-forge"
 server_side = false
@@ -1587,6 +1600,19 @@ url = "https://mediafilez.forgecdn.net/files/5046/696/tfcchannelcasting-0.2.3-be
 sha1 = "346a53a23f069d8f9b16f14ecef3b9ab247d0e49"
 sha512 = "e7eb796315196a8a59c01770f1243bd97606ad7d24f85c99fe7e994cc32db4217f6453ea65dd63d5bf3fcb4992c94e8d704ebf82b6205c2d0cfb8f91a37e4783"
 filename = "tfcchannelcasting-0.2.3-beta.jar"
+
+[mods.tfc-ie-crossover]
+version = "Unknown"
+server_side = true
+client_side = true
+
+[[mods.tfc-ie-crossover.source]]
+
+[mods.tfc-ie-crossover.source.Download]
+url = "https://cdn.modrinth.com/data/IsYwQTKM/versions/yNtV8HAc/TFC-IE-Crossover-1.20.1-1.2.1.jar"
+sha1 = "b4a1fdea2ed9a66eab03813949271b62c3ace7d5"
+sha512 = "6228f8001d5a998e1baa8b18cc9e3dbeb61d5d38dad98c87d75f15ea76b78acf11f2206388f052cf44aaa343967889f3f179ca409076abb88578eaa590bcd555"
+filename = "TFC-IE-Crossover-1.20.1-1.2.1.jar"
 
 [mods.tfc-support-indicator]
 version = "1.0.3+mc1.20.1"

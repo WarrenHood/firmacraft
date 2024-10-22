@@ -237,6 +237,12 @@ version = "*"
 server_side = false
 client_side = true
 
+[mods.immersiveengineering]
+name = "immersiveengineering"
+version = "*"
+providers = ["Raw"]
+download_url = "https://cdn.modrinth.com/data/tIm2nV03/versions/MAqXk6P8/ImmersiveEngineering-1.20.1-10.1.0-171.jar"
+
 [mods.invmove]
 name = "invmove"
 version = "*"
@@ -378,6 +384,12 @@ name = "tfc-casting-with-channels"
 version = "*"
 providers = ["Raw"]
 download_url = "https://mediafilez.forgecdn.net/files/5046/696/tfcchannelcasting-0.2.3-beta.jar"
+
+[mods.tfc-ie-crossover]
+name = "tfc-ie-crossover"
+version = "*"
+providers = ["Raw"]
+download_url = "https://cdn.modrinth.com/data/IsYwQTKM/versions/yNtV8HAc/TFC-IE-Crossover-1.20.1-1.2.1.jar"
 
 [mods.tfc-support-indicator]
 name = "tfc-support-indicator"
